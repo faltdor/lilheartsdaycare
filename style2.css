@@ -1,0 +1,108 @@
+body{background-color: #ffcc33;}
+/*.header-bck{background-image: url(images/header-bck.jpg);}*/
+
+.carousel-indicators li { visibility: hidden; }    
+.title-font{
+	font-family: "Indie Flower", cursive;
+	/*font-family: 'Rock Salt', cursive;*/
+	font-weight: bold;
+	color:#000000
+}
+.lh-footer {
+	background-color: #ffcc33;
+	height: 100px;
+}
+/* button customization =============================================================*/
+
+/* button customization ends ==========================================================*/
+.content-body{}
+.vertical-grade{
+	background: #ffffcc; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffcc 0%, #ffda5c 86%, #ffda5c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffcc), color-stop(86%,#ffda5c), color-stop(100%,#ffda5c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffcc 0%,#ffda5c 86%,#ffda5c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffcc 0%,#ffda5c 86%,#ffda5c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffcc 0%,#ffda5c 86%,#ffda5c 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffcc 0%,#ffda5c 86%,#ffda5c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffcc', endColorstr='#ffda5c',GradientType=0 ); /* IE6-9 */
+}
+.horizontal-grade{
+	background: #ffda5c; /* Old browsers */
+	background: -moz-linear-gradient(left, #ffda5c 0%, #ffffcc 24%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffda5c), color-stop(24%,#ffffcc), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #ffda5c 0%,#ffffcc 24%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #ffda5c 0%,#ffffcc 24%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #ffda5c 0%,#ffffcc 24%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to right, #ffda5c 0%,#ffffcc 24%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffda5c', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+.horizontal-grade-right{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left, #ffffff 0%, #ffffcc 76%, #ffda5c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(76%,#ffffcc), color-stop(100%,#ffda5c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #ffffff 0%,#ffffcc 76%,#ffda5c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #ffffff 0%,#ffffcc 76%,#ffda5c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #ffffff 0%,#ffffcc 76%,#ffda5c 100%); /* IE10+ */
+	background: linear-gradient(to right, #ffffff 0%,#ffffcc 76%,#ffda5c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffda5c',GradientType=1 ); /* IE6-9 */
+}
+/*Navbar customization
+=============================================================================================*/
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(66, 66, 66, 1);
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 26px;
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 204, 51, 1);
+    border-bottom-width: 1px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(66, 66, 66, 1);
+    background-color: rgba(255, 204, 51, 1);
+    background: -webkit-linear-gradient(top, rgba(248, 248, 248, 0) 0%, rgba(255, 204, 51, 1) 100%);
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 0) 0%, rgba(255, 204, 51, 1) 100%);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ffffcc;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffcc33;
+}
+.dropdown-menu.nav li.dropdown:hover > dropdown-menu.dropdown-menu {
+    display: block;    
+}
+/*Navbar customization ends ===========================================================================*/
+
+/**/
+.infant-font{
+	color:#ff3399;
+}
+.toddler-font{
+	color:green;
+}
+.preschool-font{
+	color:#B300EA;
+}
+/**/

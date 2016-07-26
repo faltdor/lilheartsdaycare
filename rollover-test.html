@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lil Hearts Daycare Center</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<style>
+		@keyframes slide{
+			0%{
+				left: 0px;
+				top: 0px;
+			}
+			100%{
+				left: 0px;
+				top: -70px;
+			}
+		}
+		.sidebar-rollover-holder:hover .rollover-icon{
+			animation-name: slide;
+			animation-duration: .5s;
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+		}
+		.sidebar-rollover-holder:hover .rollover-text{
+			color: white;
+		}
+		.sidebar-rollover-holder:active{
+			animation-play-state: paused;
+		}
+		.sidebar-rollover-holder{
+			height: 70px;
+			width: 200px;
+			background-color: #ffcc33;
+			border-radius: 20px;
+			overflow: hidden;
+			position: relative;
+		}
+		.rollover-icon{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 140px;
+			width: 60px;
+		}
+		.lh-icon-top{
+			position: absolute;
+			padding:10px;
+			font-size: 3em;
+			height: 70px;
+			width: 60px;
+			top: 0px;
+			left: 0px;
+		}
+		.lh-icon-bottom{
+			position: absolute;
+			padding:10px;
+			font-size: 3em;
+			height: 70px;
+			width: 60px;
+			top: 70px;
+			left: 0px;
+			color: white;
+		}
+		.rollover-text{
+			position: absolute;
+			top: 0px;
+			left: 60px;
+			padding-left: 10px;
+			padding-top: 20px;
+			font-size: 1.3em;
+		}
+	</style>
+</head>
+<body>
+	<div class="sidebar-rollover-holder">
+		<div class="sidebar-rollover">
+			<div class="rollover-icon">
+				<div class="lh-icon-top">
+					<span class="glyphicon glyphicon-question-sign"></span>
+				</div>
+				<div class="lh-icon-bottom">
+					<span class="glyphicon glyphicon-heart"></span>
+				</div>
+			</div>
+			<div class="rollover-text">
+				<strong>CONTACT US</strong>
+			</div>
+		</div>
+	</div>
+<!-- scripts 
+=========================================================================-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+</body>
+</html>
